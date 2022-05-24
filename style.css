@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.hire{
+    border: 1px solid rgb(255, 0, 183);
+    color: rgb(255, 0, 183);
+    border-radius: 20px;
+    padding: 10px;
+}
+.hire:hover{
+    background-color: rgb(255, 0, 183);
+    color: white;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0, 0, 0.5);
+    height: 520px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background:url("kat2.png") no-repeat center center/cover;
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+
+}
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid rgb(255, 0, 183);
+    color: rgb(255, 0, 183);
+    outline: none;
+    transition: .6s ease;
+
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(255, 0, 183);
+    color: white;
+    box-shadow: 0 0 5px rgb(255, 0, 183),0 0 10px rgb(255, 0, 183),0 0 15px rgb(255, 0, 183);
+    font-weight: bold;
+}
+
+hr{
+    margin: 15px 110px 0 110px;
+    padding: 1px;
+    background-color:white;
+    border: none;
+    border-radius: 20px;
+}
+.con2 hr{
+    margin: 15px 110px 0 110px;
+    padding: 1px;
+    background-color: rgb(255, 0, 183);
+    border: none;
+    border-radius: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 60px;
+   
+}
+.con1,.con3{
+    border: 1px solid red;
+    width: 250px;
+    height: auto;
+    padding: 20px ;
+    text-align: center;
+    border: none;
+    background-color: rgb(255, 0, 183);
+    border-radius: 30px;
+    color: white;
+}
+.con1:hover,.con3:hover{
+    background-color: transparent;
+    color: rgb(255, 0, 183);
+}
+.con2{
+    width: 250px;
+    background-color: white;
+    color: black;
+    height: auto;
+    padding: 20px ;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+}
+.con2:hover{
+    border: 1px solid rgb(255, 0, 183);
+}
+#work{
+    margin: 20px 50px;
+}
+#work h1{
+    padding: 40px 0;
+    text-align: center;
+}
+.con2 p{
+    padding: 20px 0;
+}
+.con1 p .con3 p{
+    padding: 20px 0;
+}
+
+.portfolio{
+    background-color: rgb(80, 84, 84);
+    padding-bottom: 20px;
+}
+.portfolio h3{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.branding{
+    border: 1px solid rgb(255, 0, 183);
+    width: 260px;
+    background-color: rgb(255, 0, 183);
+    color: white;
+    height: 210px;
+    padding: 20px ;
+    text-align: center;
+    border: none;
+    margin-top: 40px;
+    border-radius: 0 0 10% 0;
+    
+}
+.branding p{
+    padding-top: 60px;
+}
+.branding h2{
+    padding-top: 10px;
+}
+
+.branding hr{
+    margin: 15px 110px 0 110px;
+    padding: 1px;
+    background-color: white;
+    border: none;
+    
+
+}
+.border{
+    margin: 40px 80px;    
+
+}
+.ptfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 25px;
+        
+}
+.sec{
+    padding-top: 40px;   
+}
+.blogs h1{
+    text-align: center;
+    padding: 2rem;
+    font-size: 2.5rem;
+}
+.blogs .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.blogs .box-container .box{
+    flex:1 1 30rem;
+    border-radius: .5rem;
+    background: white;
+    box-shadow: 0 .5rem 1rem rgba(0,0, 0, 0.1);
+    padding: 2rem;
+}
+.blogs .box-container .box img{
+    height: 20rem;
+    width: 100%;
+    border-radius: .5rem;
+    object-fit: cover;
+}
+.blogs .box-container .box h3{
+    font-size: 2.5rem;
+    padding: .5rem 0;
+    color: rgb(255, 0, 183);;
+}
+.blogs .box-container .box p{
+    color: #666;
+    font-size: 1.5rem;
+    padding: .5rem 0;
+}
+.customers{
+    background-color: rgb(255, 0, 183);
+}
+.custy{
+    margin: 60px 80px;
+    text-align: center;
+    padding: 80px;
+    margin-bottom: 60px;
+
+}
+.clients{
+    padding-top: 20px;
+}
+.clients p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.clients img{
+    border: 2px solid white;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.south{
+    padding-top: 20px;
+    color: white;
+}
+.footer{
+    margin: 60px 80px;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.search-box input{
+    border-radius: 20px;
+    height: 30px;
+    padding: 10px;
+    background-color: rgb(201, 201, 209); 
+    border-color: rgb(255, 0, 183);
+}
+    
+.menu{
+    color: rgb(255, 0, 183);
+}
+.links{
+    text-align: center;
+}
+.links img{
+    margin: 10px;
+}
+
+.links img:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+
